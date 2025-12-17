@@ -7,7 +7,7 @@
 </head>
 <body>
     
-    <table border="1">
+    <!-- <table border="1">
         <tr>
             <th> name </th>
              <th> phone </th>
@@ -21,9 +21,9 @@
             <td>irbid</td>
             <td>20</td>
         </tr>
-    </table>
+    </table> -->
     <br><br>
-    <form method="set" autocomplete="on"> <!-- set : more secure use to secure data ,
+   <form method="set" autocomplete="on"> <!-- set : more secure use to secure data ,
                                get : not secure use to public
                                autocomplete :on , to complete data automaticly -->
         <p>Form</p>
@@ -38,7 +38,7 @@
 
         <input type="reset" value="reset"><br> <!-- to reset data-->
         <input type="file"><br><!--to select file from user -->
-        <input type="range"><br>
+        1<input type="range" >5<br>
         <input type="radio"><br>
 
         <label for="UserName" for="UserName">UserName</label><br> <!--the best way to create 
@@ -48,11 +48,17 @@
         <input type="text" placeholder="name here" required size="8" maxlength="2"><br>
         <input type="submit" value="Login"  ><br> <!--submit to send data -->
         <button type="button" >clic <img width="50px" src="data:image/png;base64,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" alt=""></button>
-        <input type="checkbox" name="list" optio>
+        <input type="checkbox" name="list" optio> 
 
         <h1 id="h1">Hello to our Training FrontEnd </h1>
 
-        
+        <p>this is the original text</p>
+        <p id="ptag"></p>
+
+        <h2 class="htag">hello 1</h2>
+        <h2 class="htag">hello 2</h2>
+        <h2 class="htag">hello 3</h2>
+        <h2 class="htag">hello4</h2>
 
 
 
