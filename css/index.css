@@ -1,57 +1,24 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
-    text-align: center;
+    background-color: #babad5;
+    color: #a91313;
+    text-align: center; /* text in middil*/
     padding: 50px;
 }
 
 header {
-    background: #007bff;
+    background: #93aecc;
     color: white;
     padding: 20px;
     border-radius: 10px;
 }
 
-button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    cursor: pointer;
-    border: none;
-    border-radius: 5px;
-    background-color: #28a745;
-    color: white;
+footer{
+    border-radius: 30px;
+    background-color: rgb(179, 226, 210);
+    height: 150px ;
+    width: 100%;
+    
 }
 
-.skills-container span {
-    background: #e1e1e1;
-    padding: 8px 15px;
-    margin: 5px;
-    display: inline-block;
-    border-radius: 20px;
-    font-weight: bold;
-}
 
-.projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    padding: 20px;
-}
-.project-card {
-    border: 1px solid #ddd;
-    padding: 15px;
-    border-radius: 8px;
-    transition: transform 0.3s;
-}
-.project-card:hover {
-    transform: translateY(-10px); /* حركة تفاعلية عند تمرير الماوس */
-}
-
-.profile-img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%; /* تجعل الصورة دائرية تماماً */
-    object-fit: cover;
-    border: 5px solid #007bff;
-}
