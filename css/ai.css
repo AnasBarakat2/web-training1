@@ -1,0 +1,16 @@
+body{
+    background-color:lightskyblue;
+    color: blue;
+    font-family: arial;
+    display: flex; /* حتى يسهل تحريك النص*/
+}
+
+img{
+    border-radius: 100% ;
+    border: 5px solid rgb(37, 44, 37);
+    box-shadow: 0 4px 8px ;
+    
+
+
+    
+}
