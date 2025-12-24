@@ -3,7 +3,9 @@ body {
     background-color: #babad5;
     color: #a91313;
     text-align: center; /* text in middil*/
-    padding: 50px;
+    /* padding: 50px; */
+    padding: 0;
+    margin: 0;
 }
 
 header {
@@ -18,7 +20,19 @@ footer{
     background-color: rgb(179, 226, 210);
     height: 150px ;
     width: 100%;
-    
+    position: fixed;/*عشان احرك الفوتر*/
+    margin-top: 20%; /*المسافة اللي ببعدها عن الاعلى*/
+    padding-top: 80px;
 }
+
+a{
+    color: #a91313;
+    justify-content: center;
+    margin: 40px;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    
+   }
 
 
