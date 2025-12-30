@@ -1,10 +1,19 @@
-body{
+h3{
+    color: blueviolet;
+} 
 
-    background-color: white;
-    color: black;
+article > h3{
+    color: brown;
 }
 
-.dark-mode{
-    background-color: black;
-    color: white;
+h4,h5,h6{
+    color: rgb(192, 128, 44);
+    border-style: outset;
+    
+}
+
+#field1{
+    background-image: url(/img/Unt222itled.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
