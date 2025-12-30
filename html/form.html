@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en"> <!--في حال اردنا ان تكون محتوى الصفحة باللغة العربية و الكتابة من اليمين 
+    نضيف داخل وسم الhtml dir "rtl"-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form action="post" autocomplete="on"  > <!-- autocomplete : to complete data -->
+     
+     <fieldset> <!--fieldset : use to make frame contain set of data-->
+        <legend> Personal Information</legend> <!--Legend : use to write Title of frame-->
+     <label for="UserName" >UserName</label> <!--for : to link label with input type by ID name-->
+     <input type="text" id="UserName" placeholder="Enter your name here" required >
+     <br> <br>
+     <label for="password" >password </label >
+     <input type="password" id="password" placeholder="Enter your password here" maxlength="6" required> <!--maxlenght: max num of character-->
+     <br><br>
+     <label for="Email">Email</label required>
+     <input type="email" id="Email" placeholder="Enter your Email Here" >
+     <br><br>
+     </fieldset><br><br>
+
+     <fieldset>
+     <legend>Optional Information</legend>
+
+    <textarea name="text" id="text">here we can write anything</textarea>
+    <br><br>
+    <br><br>
+
+    <select name="language[]" size="3" multiple> <!--to multiple choice by clic Ctrl button on keybord-->
+        <option value="arabic">arabic</option>
+        <option value="English">English</option>
+        <option value="Frinch" selected>Frinch</option>
+    </select>
+    <br><br>
+    <input type="file">
+    <input type="reset">
+    <input type="submit">
+
+    </fieldset>
+
+   <audio src="https://server6.mp3quran.net/balilah/001.mp3">clic here</audio>
+
+    <p dir="rtl">مرحبا كيف حال؟</p> <!--to add arabic contant in our page , from right to lift -->
+    <p>Hello , How are you ?</p>
+    <p dir="rtl">اهلا بك</p>
+
+    <abbr title="نص مخفي يظهر عند وضع المؤشر ">hello</abbr><!--لاخفاء نص يظهر عند وضع المؤشر عليه-->
+
+    </form>
+</body>
+</html>
