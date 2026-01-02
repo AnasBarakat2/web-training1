@@ -3,6 +3,7 @@ body{
     color: blue;
     font-family: arial;
     display: flex; /* حتى يسهل تحريك النص*/
+    
 }
 
 img{
