@@ -1,8 +1,8 @@
-body{
+ body{
     background-color:lightskyblue;
-    color: blue;
+    color: paleturquoise;
     font-family: arial;
-    display: flex; /* حتى يسهل تحريك النص*/
+    /*display: flex; /* حتى يسهل تحريك النص*/
     
 }
 
@@ -14,4 +14,36 @@ img{
 
 
     
+} */
+
+.A {
+    text-align: left;/*text position */
+    text-transform: uppercase;
 }
+
+.B{
+    text-align: center;
+}
+
+.C {
+    text-align: right;
+}
+
+h2{
+    /* text-transform: uppercase; */
+    /* text-decoration: underline red wavy; */
+  direction: rtl;
+    
+  font-family: "Rakkas", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: brown;
+  text-shadow: 0px 0px 10px rgb(60, 60, 38) , 0px 0px 15px;/* 10px : نسبة الضبابية*/
+  border: 1px solid black;
+  box-shadow: 3px 3px rgb(188, 88, 88) , 6px 6px rgb(79, 170, 170);
+}
+
+.material-icons{
+    color: black;
+}
+
